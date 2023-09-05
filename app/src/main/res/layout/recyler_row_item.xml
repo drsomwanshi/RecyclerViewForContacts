@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#79FFEB3B"
+    >
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:id="@+id/img1"
+        android:src="@drawable/photo"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Fullname"
+        android:id="@+id/txt1"
+        android:layout_margin="1dp"
+        android:layout_toRightOf="@+id/img1"
+></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Contact"
+        android:id="@+id/txt2"
+        android:layout_margin="1dp"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_below="@id/txt1"
+        ></TextView>
+
+
+</RelativeLayout>
